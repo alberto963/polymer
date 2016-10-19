@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 
      ,-----.,--.                  ,--. ,---.   ,--.,------.  ,------.
     '  .--./|  | ,---. ,--.,--. ,-|  || o   \  |  ||  .-.  \ |  .---'
@@ -16,10 +15,10 @@ If you want, you can also go watch some training videos at
 http://www.youtube.com/user/c9ide.
 
 Happy coding!
-The Cloud9 IDE team
+The Cloud9 IDE
+
+# polymer
 
 Use the following URL:
 https://polymer-alberto63.c9users.io/spring-mvc
-=======
-# polymer
->>>>>>> 1022593fbbdafdce314441ec3e24943e4eb98b38
+
