@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
      ,-----.,--.                  ,--. ,---.   ,--.,------.  ,------.
     '  .--./|  | ,---. ,--.,--. ,-|  || o   \  |  ||  .-.  \ |  .---'
@@ -19,3 +20,6 @@ The Cloud9 IDE team
 
 Use the following URL:
 https://polymer-alberto63.c9users.io/spring-mvc
+=======
+# polymer
+>>>>>>> 1022593fbbdafdce314441ec3e24943e4eb98b38
