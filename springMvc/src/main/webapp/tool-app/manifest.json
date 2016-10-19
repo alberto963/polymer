@@ -1,0 +1,7 @@
+{
+  "name": "tool-app",
+  "short_name": "tool-app",
+  "description": "Login panel with polymer and spring security secured apprlication",
+  "start_url": "/",
+  "display": "standalone"
+}

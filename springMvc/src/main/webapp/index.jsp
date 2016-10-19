@@ -3,7 +3,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 
 	<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
-		<%@ taglib prefix="spring" uri="http://www.springframework.org/tags"%>
+	<%@ taglib prefix="spring" uri="http://www.springframework.org/tags"%>
 
 			<html>
 
@@ -41,6 +41,10 @@
 				-->
 				<br>
 				<a href="/spring-mvc/redirect_http">Click to test REDIRECT on server side to http://apod.nasa.gov/apod/astropix.html request (working, this is the right one)</a>
+
+				<br>
+				<c:url value="/showMessagePolymer" var="polymerTestPage" />
+				<a href="${polymerTestPage}">Click to test polymer page</a>
 
 			</body>
 

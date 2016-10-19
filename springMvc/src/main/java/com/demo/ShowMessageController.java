@@ -31,6 +31,14 @@ public class ShowMessageController {
         // Prepare the result view (showMessage.jsp):
         return new ModelAndView("showMessage", "message", "Hello Spring MVC Framework + Maven!");
     }
+    
+     @RequestMapping("/showMessagePolymer")
+    public ModelAndView actionMvcPolymer(HttpServletRequest request) {
+        System.out.println("ShowMessageController showMessagePolymer request=" + request);
+
+        // Prepare the result view (showMessagePolymer.jsp):
+        return new ModelAndView("showMessagePolymer", "message", "Hello Spring MVC Framework + Maven! + Polymer!!!");
+    }
 
     static class Simple {
         private String name = "";
