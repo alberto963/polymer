@@ -1,5 +1,6 @@
 
 Based on pre 1.0/1.1 version of polymer.
+========================================
 
 x-helloworldcustomelement
 ================
