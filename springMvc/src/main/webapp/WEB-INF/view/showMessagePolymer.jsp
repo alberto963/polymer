@@ -18,16 +18,17 @@
     
     
     <c:url value="/tool-app/src/tool-app-app/tool-app-app.html" var="toolappapp" />
-	<link rel="import" href="${toolappapp}">
+	  <link rel="import" href="${toolappapp}">
     
   </head>
   
   <body>
   
-	<!-- TODO move $message as data bindings value for tool-app-app component -->
-  	<h2>${message}</h2>
+  	<h2>${message} as title in showMessagePolymer.html</h2>
   	
-    <tool-app-app></tool-app-app>
+  	<!-- $message as data bindings value for tool-app-app component -->
+  	<!-- $message as content value for tool-app-app component -->
+    <tool-app-app prop1="${message}"><span>${message} as content</span></tool-app-app>
     
   </body>
   

@@ -1,13 +1,15 @@
 <link rel="import" href="../../bower_components/polymer/polymer.html">
 
+
 <dom-module id="tool-app-app">
+  <link rel="import" type="css" href="tool-app-app.css">
   <template>
-    <style>
-      :host {
-        display: block;
-      }
-    </style>
+    
     <h2>Hello [[prop1]]</h2>
+    <div id="title">[[prop1]]</div>
+     <div id="contentwrapper">
+      <content></content>
+    </div>
   </template>
 
   <script>
@@ -16,11 +18,35 @@
       is: 'tool-app-app',
 
       properties: {
-        prop1: {
+       
+        
+          /**
+         * The `attr` attribute does not yet have a purpose.
+         */
+        attr: {
           type: String,
           value: 'tool-app-app',
-        },
+          observe: '_attrChanged'
+        }
       },
+
+      ready: function() {
+      },
+
+      /**
+       * This function will be invoked every time `attr` gets changed.
+       */
+      _attrChanged: function() {
+      },
+
+      /**
+       * The `task` method does [...]
+       *
+       * @param {String} dummy Defines [...].
+       * @return {Object} Returns [...].
+       */
+      task: function(dummy) {
+      }
 
     });
   </script>
