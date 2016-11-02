@@ -17,7 +17,8 @@
 	<!-- Uncomment and your base-package here: <context:component-scan base-package="org.springframework.samples.web"/> -->
 	<context:component-scan base-package="com.demo" />
 	
-	<!-- Handles HTTP GET requests for /tool-app/** by efficiently serving up static resources in the ${webappRoot}/tool-app/ directory -->
+	<!-- Handles HTTP GET requests for /tool-app/** by efficiently serving up static resources in the ${webappRoot}/tool-app/ directory 
+		In other words, this is needed to have polymer and custom componenent available -->
 	<mvc:resources mapping="/tool-app/**" location="/tool-app/" />
 
 	<!-- Example: a logical view name of 'showMessage' is mapped to '/WEB-INF/jsp/showMessage.jsp' -->

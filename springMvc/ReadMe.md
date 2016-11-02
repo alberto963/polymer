@@ -10,9 +10,9 @@ It demostrates how to have:
 3) handling of a request in REST format (showMessageJson) with json result/
 
 Urls:
-http://localhost:8080/spring-mvc/
-http://localhost:8080/spring-mvc/showMessage.html
-http://localhost:8080/spring-mvc/showMessageJson
+https://polymer-alberto63.c9users.io/spring-mvc/
+https://polymer-alberto63.c9users.io/spring-mvc/showMessage.html
+https://polymer-alberto63.c9users.io/spring-mvc/showMessageJson
 
 Note:
 Json result is accomplished because Jackson libs are in the classpath 
